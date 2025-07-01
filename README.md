@@ -43,6 +43,7 @@ git push
 #### Most in use - Visual Studio Code (VS code)
 - Download and install: https://code.visualstudio.com/
 - Implement AI agent: https://www.youtube.com/watch?v=dutyOc_cAEU
+- Console command to run VScode in the current folder: `code .`
 
 ### 2. HTML
 - Learn resource: https://www.w3schools.com/html/
