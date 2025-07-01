@@ -48,7 +48,7 @@ git push
 ### 2. HTML
 - Learn resource: https://www.w3schools.com/html/
 - Official documentation: https://developer.mozilla.org/en-US/docs/Web/HTML
-- Example: index.html[index.html]
+- Example: [index.html](/README.md)
 
 ### 3. CSS
 ...
