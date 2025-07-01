@@ -35,3 +35,22 @@ git push
 - Generate SSH key: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`.
 - Start SSH agent: `eval "$(ssh-agent -s)"`
 - Add your personal SSH key: `ssh-add ~/.ssh/id_your_private_ssh_key`
+
+## II. Web development, website design
+
+### 1. Editor & IDE (Integrated Development Environment)
+
+#### Most in use - Visual Studio Code (VS code)
+- Download and install: https://code.visualstudio.com/
+- Implement AI agent: https://www.youtube.com/watch?v=dutyOc_cAEU
+
+### 2. HTML
+- Learn resource: https://www.w3schools.com/html/
+- Official documentation: https://developer.mozilla.org/en-US/docs/Web/HTML
+- Example: index.html[index.html]
+
+### 3. CSS
+...
+
+### 4. javaScript
+...
