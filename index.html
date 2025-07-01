@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Примерна страница</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Добре дошли в нашия сайт!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Начало</a></li>
+                <li><a href="#about">За нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакт</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Начало</h2>
+            <p>Това е началната страница на нашия сайт. Тук можете да намерите информация за нашите услуги и как да се свържете с нас.</p>
+        </section>
+        <section id="about">
+            <h2>За нас</h2>
+            <p>Ние сме компания, която предлага висококачествени услуги на нашите клиенти. Нашият екип е съставен от професионалисти с дългогодишен опит в индустрията.</p>
+        </section>
+        <section id="services">
+            <h2>Услуги</h2>
+            <p>Предлагаме разнообразие от услуги, включително уеб разработка, графичен дизайн и дигитален маркетинг. Нашите услуги са насочени към подобряване на вашия бизнес и увеличаване на видимостта ви онлайн.</p>
+        </section>
+        <section id="contact">
+            <h2>Контакт</h2>
+            <p>Ако имате въпроси или искате да научите повече за нашите услуги, моля свържете се с нас чрез формата по-долу или на посочените контакти.</p>
+            <form id="contact-form">
+                <label for="name">Име:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Имейл:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Съобщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Изпрати</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Нашата компания. Всички права запазени.</p>
+        <p>Последна актуализация: <span id="last-updated"></span></p>
+    </footer>
+    <script>
+        // Скрипт за показване на последната актуализация
+        document.getElementById('last-updated').textContent = new Date().toLocaleDateString('bg-BG', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        });
+        </script>
+</body>
+</html>
