@@ -33,7 +33,7 @@ git push
 - SSH commands: https://www.hostinger.com/tutorials/ssh/basic-ssh-commands
 - Resource: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 - Generate SSH key: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`.
-- Start SSH agent: `eval "$(ssh-agent -s)"`
+- Start SSH agent: `eval $(ssh-agent -s)`
 - Add your personal SSH key: `ssh-add ~/.ssh/id_your_private_ssh_key`
 
 ## II. Web development, website design
