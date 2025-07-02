@@ -63,9 +63,12 @@ git push
 ```
 - Direct HTML element attachment CSS command.
 
-#### CSS Resources
+#### 3.2. CSS Resources
 - Official CSS documentation : https://developer.mozilla.org/en-US/docs/Web/CSS
 - Learning CSS: https://www.w3schools.com/css/
+
+#### 3.3. CSS and websites designs - examples (ready-to-use)
+- https://themeforest.net/
 
 ### 4. javaScript
 ...
