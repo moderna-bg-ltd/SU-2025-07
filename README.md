@@ -2,7 +2,7 @@
 
 ## Updates
 - 2025-07-01 - Web development - Git, SSH key, Visual Studio Code (VS code), HTML
-- 2025-07-02 - CSS
+- 2025-07-02 - CSS, DJ personal website (starting point)
 
 ## I. Developers Tools
 
@@ -69,6 +69,8 @@ git push
 
 #### 3.3. CSS and websites designs - examples (ready-to-use)
 - https://themeforest.net/
+- CSS frameworks - TailwindCSS, Boostrap, W3CSS, etc.
+- Bootstrap CSS framework: https://getbootstrap.com/
 
 ### 4. javaScript
 ...
