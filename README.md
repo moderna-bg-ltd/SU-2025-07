@@ -1,5 +1,9 @@
 # SU-2025-07
 
+## Updates
+- 2025-07-01 - Web development - Git, SSH key, Visual Studio Code (VS code), HTML
+- 2025-07-02 - CSS
+
 ## I. Developers Tools
 
 ### 1. Git
@@ -51,7 +55,12 @@ git push
 - Our example HTML code: [index.html](/README.md)
 
 ### 3. CSS
-...
+- Separate CSS file (*.css)
+- Direct HTML implementation:
+```
+<style>...</style>
+```
+- Direct HTML element attachment CSS command.
 
 ### 4. javaScript
 ...
