@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Примерна страница</title>
+
+    <!-- First CSS variant implementation-->
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+
+    <!-- Second CSS variant implementation -->
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+        .form-group {
+            display:block; 
+            margin-bottom: 10px;
+            max-width: 350px;
+        }
+     </style>
 </head>
 <body>
     <header>
@@ -36,13 +85,22 @@
             <h2>Контакт</h2>
             <p>Ако имате въпроси или искате да научите повече за нашите услуги, моля свържете се с нас чрез формата по-долу или на посочените контакти.</p>
             <form id="contact-form">
-                <label for="name">Име:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Имейл:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Съобщение:</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Изпрати</button>
+                <!-- Third way of CSS implementation - inline -->
+                <div style="display:block; margin-bottom: 10px;max-width: 350px;">
+                    <label for="name">Име:</label><br>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Имейл:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Съобщение:</label><br>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Изпрати</button>
+                </div>
             </form>
         </section>
     </main>
@@ -50,6 +108,7 @@
         <p>&copy; 2025 Нашата компания. Всички права запазени.</p>
         <p>Последна актуализация: <span id="last-updated"></span></p>
     </footer>
+    <script src="script.js" defer></script>
     <script>
         // Скрипт за показване на последната актуализация
         document.getElementById('last-updated').textContent = new Date().toLocaleDateString('bg-BG', {
