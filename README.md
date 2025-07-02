@@ -55,12 +55,17 @@ git push
 - Our example HTML code: [index.html](/README.md)
 
 ### 3. CSS
+#### 3.1. Implement CSS in HTML
 - Separate CSS file (*.css)
 - Direct HTML implementation:
 ```
 <style>...</style>
 ```
 - Direct HTML element attachment CSS command.
+
+#### CSS Resources
+- Official CSS documentation : https://developer.mozilla.org/en-US/docs/Web/CSS
+- Learning CSS: https://www.w3schools.com/css/
 
 ### 4. javaScript
 ...
