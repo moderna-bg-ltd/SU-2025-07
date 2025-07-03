@@ -77,3 +77,4 @@ git push
 
 ### 5. Official DJ Website
 - https://github.com/moderna-bg-ltd/dj-website
+- Add most of the ready-to use HTML pages
