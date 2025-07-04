@@ -44,7 +44,7 @@ git push
 - Start SSH agent: `eval $(ssh-agent -s)`
 - Add your personal SSH key: `ssh-add ~/.ssh/id_your_private_ssh_key`
 
-## II. Web development, website design
+## II. Web desing & development
 
 ### 1. Editor & IDE (Integrated Development Environment)
 
