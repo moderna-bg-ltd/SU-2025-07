@@ -1,15 +1,19 @@
 # SU-2025-07
 
 ## Updates
-- 2025-07-01 - Web development - Git, SSH key, Visual Studio Code (VS code), HTML
-- 2025-07-02 - CSS, DJ personal website (starting point)
+- 2025-07-01 - Web development - Git, SSH key, Visual Studio Code (VS code), 
+HTML
+- 2025-07-02 - CSS, DJ personal website (starting point) - Example project #2
+- 2025-07-03 - Example project #2 - Add the other web pages, css and js
+- 2025-07-04 - JS, Example project #1 - Add JS (JavaScript) code
 
 ## I. Developers Tools
 
 ### 1. Git
 - Install https://git-scm.com/downloads
 - Windows - Git Bash (console).
-- Windows console commands: https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows
+- Windows console commands: 
+https://www.thomas-krenn.com/en/wiki/Cmd_commands_under_Windows
 
 #### Main Git commands
 - `git clone <repository_address> .` (current folder)
@@ -55,6 +59,7 @@ git push
 - Our example HTML code: [index.html](/README.md)
 
 ### 3. CSS
+
 #### 3.1. Implement CSS in HTML
 - Separate CSS file (*.css)
 - Direct HTML implementation:
@@ -64,7 +69,7 @@ git push
 - Direct HTML element attachment CSS command.
 
 #### 3.2. CSS Resources
-- Official CSS documentation : https://developer.mozilla.org/en-US/docs/Web/CSS
+- Official CSS documentation: https://developer.mozilla.org/en-US/docs/Web/CSS
 - Learning CSS: https://www.w3schools.com/css/
 
 #### 3.3. CSS and websites designs - examples (ready-to-use)
@@ -72,9 +77,46 @@ git push
 - CSS frameworks - TailwindCSS, Boostrap, W3CSS, etc.
 - Bootstrap CSS framework: https://getbootstrap.com/
 
-### 4. javaScript
-...
 
-### 5. Official DJ Website
+### 4. javaScript
+
+#### 4.1. Implement JavaScript (JS) in HTML
+- Right before the closing tag </body> and between tags:
+```
+<script>
+...
+</script>
+```
+- In a separate .js file
+
+#### 4.2. JavaScript resources:
+- Official documentation: 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+- Learn JS / JavaScript: https://www.w3schools.com/js/
+
+#### 4.3. JavaScript frameworks
+- ReactJS with both JS (JavaScript) & TS (TypeScript) - https://react.dev/
+- NextJS - framework based on top of React (both JS & TS) - https://nextjs.org/
+- Many other JS frameworks - VueJS / NuxtJS (as an opposit of React/Next), 
+AngularJS, ExtJS, PreactJS, etc.
+
+
+### 5. Example project #1
+- Create an example HTML page (index.html)
+- Move CSS styles in a separated file (styles.css)
+- Add JS code in the HTML (index.html) - AI generated
+- Move all the JS code into a separate file: scripts.js
+
+
+### 6. AI in use
+Add an AI agent in your VS Code editor:
+- Example: https://www.youtube.com/watch?v=aKx5I0Mrr9g
+
+
+### 7. Example project #2 - Official DJ Website
 - https://github.com/moderna-bg-ltd/dj-website
 - Add most of the ready-to use HTML pages
+
+
+### 8. Best code practices & standards
+- Code style - max 80 characters per line, empty line at the end

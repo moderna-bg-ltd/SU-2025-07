@@ -7,54 +7,6 @@
 
     <!-- First CSS variant implementation-->
     <link rel="stylesheet" href="styles.css">
-
-    <!-- Second CSS variant implementation -->
-     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
-        main {
-            padding: 20px;
-        }
-        section {
-            margin-bottom: 20px;
-            background-color: white;
-            padding: 15px;
-            border-radius: 5px;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background-color: #333;
-            color: white;
-        }
-        .form-group {
-            display:block; 
-            margin-bottom: 10px;
-            max-width: 350px;
-        }
-     </style>
 </head>
 <body>
     <header>
@@ -103,19 +55,17 @@
                 </div>
             </form>
         </section>
+        <section id="images">
+            <h2>Галерия</h2>
+            <img src="https://via.placeholder.com/300x200?text=Изображение+1" alt="Галерия изображение">
+            <img src="https://via.placeholder.com/300x200?text=Изображение+2" alt="Галерия изображение">
+            <img src="https://via.placeholder.com/300x200?text=Изображение+3" alt="Галерия изображение">
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Нашата компания. Всички права запазени.</p>
         <p>Последна актуализация: <span id="last-updated"></span></p>
     </footer>
-    <script src="script.js" defer></script>
-    <script>
-        // Скрипт за показване на последната актуализация
-        document.getElementById('last-updated').textContent = new Date().toLocaleDateString('bg-BG', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
-        </script>
+    <script src="scripts.js" defer></script>
 </body>
 </html>
