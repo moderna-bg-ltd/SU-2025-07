@@ -6,6 +6,7 @@ HTML
 - 2025-07-02 - CSS, DJ personal website (starting point) - Example project #2
 - 2025-07-03 - Example project #2 - Add the other web pages, css and js
 - 2025-07-04 - JS, Example project #1 - Add JS (JavaScript) code
+- 2025-07-05 & 06 - JS, Example project #1 - Completion
 
 ## I. Developers Tools
 
@@ -66,7 +67,7 @@ git push
 ```
 <style>...</style>
 ```
-- Direct HTML element attachment CSS command.
+- Direct HTML element CSS inline attachment
 
 #### 3.2. CSS Resources
 - Official CSS documentation: https://developer.mozilla.org/en-US/docs/Web/CSS
@@ -106,7 +107,10 @@ AngularJS, ExtJS, PreactJS, etc.
 - Move CSS styles in a separated file (styles.css)
 - Add JS code in the HTML (index.html) - AI generated
 - Move all the JS code into a separate file: scripts.js
-
+- Separate all HTML pages within files.
+- Project #1 completion and testing.
+- Commit (Git) all the project #1 files on the public repository:
+https://github.com/moderna-bg-ltd/SU-2025-07/
 
 ### 6. AI in use
 Add an AI agent in your VS Code editor:
